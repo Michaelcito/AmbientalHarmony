@@ -1,0 +1,23 @@
+    .config-container {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #f9f9f9;
+      border-radius: 8px;
+      padding: 30px 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+    .config-container h2 {
+      margin-bottom: 25px;
+      font-weight: 700;
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 8px;
+    }
+    iframe {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 30px;
+    }

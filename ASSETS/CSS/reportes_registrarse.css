@@ -1,0 +1,112 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffffff, #b9e6e9);
+      color: #333;
+      padding: 1rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: .5rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    form {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      background: #fafafa;
+      animation: fadeIn 0.3s ease-in-out;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    form .field-group {
+      margin-bottom: 1rem;
+    }
+
+    form label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: .5rem;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form select,
+    form textarea {
+      width: 100%;
+      padding: .5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    form textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+
+    .btn-primary {
+      background: #0288d1;
+      color: #fff;
+      border: none;
+      padding: .75rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background .3s;
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 200px;
+    }
+
+    .btn-primary:hover {
+      background: #0277bd;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #6c757d; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

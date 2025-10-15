@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffffff, #b9e6e9);
+  color: #333;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #0288d1;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+input, select {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button[type="submit"] {
+  grid-column: span 2;
+  background: #0288d1;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background: #0277bd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: #f5f5f5;
+}
+
+td {
+  background: #fff;
+}
+
+td .btn-edit, td .btn-delete, td .btn-reactivate {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 0.3rem;
+}
+
+a.btn-edit {
+  background-color: #ffb300;
+  color: #fff;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-right: 0.3rem;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+a.btn-edit:hover {
+  background-color: #ffa000;
+}
+
+.btn-delete {
+  background-color: #e53935;
+}
+
+.btn-delete:hover {
+  background-color: #c62828;
+}
+
+.btn-reactivate {
+  background-color: #43a047;
+}
+
+.btn-reactivate:hover {
+  background-color: #388e3c;
+}
+
+@media (max-width: 600px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+
+  button[type="submit"] {
+    grid-column: span 1;
+  }
+}

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffffff, #b9e6e9);
+  color: #333;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin-top: 2.5rem;
+  color: #0277bd;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  margin-bottom: 1.5rem;
+}
+
+legend {
+  font-weight: bold;
+  color: #0288d1;
+  padding: 0 0.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  margin-top: 1.5rem;
+  background: #0288d1;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0277bd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+table th {
+  background-color: #f0f0f0;
+  color: #444;
+}
+
+hr {
+  margin: 3rem 0;
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.descripcion {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-style: normal;
+}
